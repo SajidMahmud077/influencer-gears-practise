@@ -2,35 +2,75 @@
 body{
   font-family: "Poppins", sans-serif;
 }
-/* default style */
+/* shared style */
 *{
   margin: 0 auto;
 }
-.container{
-  /* width:100%; */
-  margin:5rem auto ;
-}
-h3{
-  font-size: 36px;
-  text-align: center;
-  font-weight: 800;
-  line-height: normal;
-}
-/* nav-bar */
-.span{
-  color:rgb(255, 84, 0)
+.nav-bar{
+
 }
 .nav-bar{
+  width: 90%;
+  margin-top: 2rem;
+  
+}
+
+.display-flex{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
+  gap: 6rem;
+  
+
 }
+/* header style */
+/* navbar related style */
 .nav-item{
+  list-style: none;
+}
+.nav-link{
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+.span{
+  color: rgb(255, 84, 14);
+}
+.banner-container{
   display: flex;
-  justify-content: space-evenly;
-  gap: 3rem;
-  cursor: pointer;
+   justify-content:space-evenly; 
+  align-items: center; 
+  margin-top: 2rem;
+} 
+.banner-content{
+
+ color: rgb(58, 58, 58);;
 }
-.nav-bar p{
-  font-size: 18px;
+.banner-btn{
+  width: 25vh;
+  height: 5vh;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  background: rgb(224, 44, 109);
+  margin-top: 2rem;
 }
+.banner-content h1{
+  font-size: 3rem;
+  font-weight: 900;
+}
+.banner-content p{
+  width: 500px;
+  font-size: 1rem;
+  color: rgb(58, 58, 58);
+}
+.banner-image{
+  padding-right: 4em;
+}
+
+ 
+
+
