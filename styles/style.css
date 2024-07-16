@@ -37,11 +37,12 @@ body{
 .span{
   color: rgb(255, 84, 14);
 }
+/* banner design */
 .banner-container{
   display: flex;
-   justify-content:space-evenly; 
+  margin-bottom: 15px;
   align-items: center; 
-  margin-top: 2rem;
+  margin-top: 5rem;
 } 
 .banner-content{
 
@@ -57,19 +58,35 @@ body{
   color: white;
   background: rgb(224, 44, 109);
   margin-top: 2rem;
+  cursor: pointer;
 }
 .banner-content h1{
   font-size: 3rem;
   font-weight: 900;
 }
 .banner-content p{
-  width: 500px;
+  width: 490px;
+  padding-right: 3rem;
   font-size: 1rem;
   color: rgb(58, 58, 58);
 }
 .banner-image{
   padding-right: 4em;
+  background-image: url(/images/Circle\ design.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+.sponsers{
+  max-width:1110px;
+  margin-top: 6em;
+  padding: 30px;
+  box-sizing: border-box;
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+box-shadow: 1px  1px 1px  rgb(217, 217, 236);
+}
+/* populer ssection style  */
 
  
 
