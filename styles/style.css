@@ -79,7 +79,7 @@ body{
 }
 .sponsers{
   max-width:1110px;
-  margin-top: 6em;
+  margin-top: 5em;
   padding: 30px;
   box-sizing: border-box;
 display: grid;
@@ -87,6 +87,28 @@ grid-template-columns: repeat(7, 1fr);
 box-shadow: 1px  1px 1px  rgb(217, 217, 236);
 }
 /* populer ssection style  */
+.card-header{
+  text-align: center;
+  margin-top: 10rem;
+  font-weight: 800;
+  font-size: 2rem;
+  color: rgb(58, 58, 58);
+}
+/* card section style */
+.image-container{
+  width: 1047px;
+  height: 1144px;
+  /* border: 2px solid red; */
+  margin-top: 140px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+
+}
+.banner-content{
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px  rgb(217, 217, 236) ;
+}
 
  
 
